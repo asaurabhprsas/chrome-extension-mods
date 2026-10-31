@@ -5,47 +5,111 @@
    "background": {
       "service_worker": "background.js"
    },
-   "content_scripts": [ {
-      "all_frames": true,
-      "js": [ "content-scripts/ad-finder.js" ],
-      "matches": [ "*://*/*" ],
-      "run_at": "document_start"
-   }, {
-      "js": [ "content-scripts/auto-connect-redirect.js" ],
-      "matches": [ "*://*/*" ]
-   }, {
-      "js": [ "content-scripts/block-website.js", "content-scripts/keyword-blocking.js", "content-scripts/usage-monitoring.js" ],
-      "matches": [ "*://*/*" ],
-      "run_at": "document_end"
-   }, {
-      "css": [ "content-scripts/in-app-blocking.css" ],
-      "js": [ "content-scripts/in-app-blocking.js" ],
-      "matches": [ "*://*.facebook.com/*", "*://*.instagram.com/*", "*://*.snapchat.com/*", "*://*.tiktok.com/*", "*://*.x.com/*", "*://*.youtube.com/*" ],
-      "run_at": "document_end"
-   }, {
-      "js": [ "content-scripts/setting-up.js" ],
-      "matches": [ "https://stayfreeapps.com/extension/setting-up*" ]
-   } ],
+   "content_scripts": [
+      {
+         "all_frames": true,
+         "js": [
+            "content-scripts/ad-finder.js"
+         ],
+         "matches": [
+            "*://*/*"
+         ],
+         "run_at": "document_start"
+      },
+      {
+         "js": [
+            "content-scripts/auto-connect-redirect.js"
+         ],
+         "matches": [
+            "*://*/*"
+         ]
+      },
+      {
+         "js": [
+            "content-scripts/block-website.js",
+            "content-scripts/keyword-blocking.js",
+            "content-scripts/usage-monitoring.js"
+         ],
+         "matches": [
+            "*://*/*"
+         ],
+         "run_at": "document_end"
+      },
+      {
+         "css": [
+            "content-scripts/in-app-blocking.css"
+         ],
+         "js": [
+            "content-scripts/in-app-blocking.js"
+         ],
+         "matches": [
+            "*://*.facebook.com/*",
+            "*://*.instagram.com/*",
+            "*://*.snapchat.com/*",
+            "*://*.tiktok.com/*",
+            "*://*.x.com/*",
+            "*://*.youtube.com/*"
+         ],
+         "run_at": "document_end"
+      },
+      {
+         "js": [
+            "content-scripts/setting-up.js"
+         ],
+         "matches": [
+            "https://stayfreeapps.com/extension/setting-up*"
+         ]
+      }
+   ],
    "default_locale": "en_US",
    "description": "__MSG_description__",
-   "host_permissions": [ "*://*/*" ],
+   "host_permissions": [
+      "*://*/*"
+   ],
    "icons": {
-      "128": "icon-128.png",
       "16": "icon-16.png",
-      "48": "icon-48.png"
+      "48": "icon-48.png",
+      "128": "icon-128.png"
    },
    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyhopnzkJrc9NZYR7zyxhhvOMVSOaTzI5G0IocT2Ugy+1cRLy3cGOlGFeLJ/A/BKcT1V6deGaZa9HB11n/2QQHh8nbhJgoEWB/fPJEQ7uolMRKEf9ebpnmr32Sqg8dDW8BOAsSpJy1RAnlI8Rw3SzVEY+0Ib+ii3AzDNHOwz+kl7TPX+fzozAsAxLy7QiqcWpU9v0wKcUM116/2ztN7G6r/+S/r5f2N9OQNQCh7qW6MFs3un+QaqeXHjE1iLmjscthirChj5Fj/ehkT28DIrMVQQ+WBzj3drQNVUSn1Dt4+DZdHo8LERHrmAOyTyxF2rbQW9bJQITZSBN6TdYDi2V/QIDAQAB",
    "manifest_version": 3,
    "name": "__MSG_name__",
-   "optional_permissions": [ "downloads" ],
-   "permissions": [ "alarms", "tabs", "storage", "notifications", "webNavigation", "scripting", "favicon", "search", "identity" ],
+   "optional_permissions": [
+      "downloads"
+   ],
+   "permissions": [
+      "alarms",
+      "tabs",
+      "storage",
+      "notifications",
+      "webNavigation",
+      "scripting",
+      "favicon",
+      "search",
+      "identity"
+   ],
    "update_url": "https://clients2.google.com/service/update2/crx",
    "version": "2.11.2",
-   "web_accessible_resources": [ {
-      "matches": [ "*://*/*" ],
-      "resources": [ "assets/*", "_favicon/*", "*.css", "*.png" ]
-   }, {
-      "matches": [ "*://*/*" ],
-      "resources": [ "assets/ads-helper.js" ]
-   } ]
+   "web_accessible_resources": [
+      {
+         "matches": [
+            "*://*/*"
+         ],
+         "resources": [
+            "assets/*",
+            "_favicon/*",
+            "*.css",
+            "*.png"
+         ]
+      },
+      {
+         "matches": [
+            "*://*/*"
+         ],
+         "resources": [
+            "assets/ads-helper.js"
+         ]
+      }
+   ],
+   "version_name": "2.11.2-mod.2026-11-01"
 }
