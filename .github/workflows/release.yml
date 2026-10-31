@@ -5,6 +5,11 @@ on:
     tags:
       - 'v*'
   workflow_dispatch:
+    inputs:
+      tag_name:
+        description: 'Release Tag (leave empty for automatic date-based tag)'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -17,6 +22,20 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
+
+      - name: Determine Release Tag
+        id: tag_info
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            TAG="${{ inputs.tag_name }}"
+            if [ -z "$TAG" ]; then
+              TAG="v1.0.0-$(date +'%Y%m%d')"
+            fi
+          else
+            TAG="${{ github.ref_name }}"
+          fi
+          echo "tag=$TAG" >> $GITHUB_OUTPUT
+          echo "Using release tag: $TAG"
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
@@ -41,8 +60,9 @@ jobs:
       - name: Create GitHub Release & Attach Zips
         uses: softprops/action-gh-release@v2
         with:
+          tag_name: ${{ steps.tag_info.outputs.tag }}
+          name: Release ${{ steps.tag_info.outputs.tag }}
           files: release/*.zip
-          name: Release ${{ github.ref_name }}
           draft: false
           prerelease: false
           generate_release_notes: true
