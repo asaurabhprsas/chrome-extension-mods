@@ -1,0 +1,17 @@
+{
+   "description": {
+      "message": "分析帮助您理解和控制网站使用，减少干扰，提高生产力"
+   },
+   "iosDescription": {
+      "message": "了解并控制您的网站使用情况，减少干扰，提高效率"
+   },
+   "name": {
+      "message": "StayFree - 网站拦截器, 网络使用统计, 短视频拦截器"
+   },
+   "shortDescription": {
+      "message": "网站控制分析，减少干扰，提升生产力。"
+   },
+   "shortName": {
+      "message": "StayFree"
+   }
+}

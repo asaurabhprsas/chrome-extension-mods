@@ -1,0 +1,1 @@
+import{bo as r,bN as t,bp as o,ba as n,j as i}from"./defineAppConfig-CjWUsRRy.js";const m="session-summaries";function c(e,u=o()){const s=i(()=>!!e.value.myInstallId),a=r([m,e],u.getSessionSummaries,{placeholderData:n,enabled:s});return t(e,a,s),a}export{m as g,c as u};

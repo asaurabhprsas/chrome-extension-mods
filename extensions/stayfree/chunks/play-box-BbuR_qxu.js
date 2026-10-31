@@ -1,0 +1,1 @@
+import{q as o,o as t,g as a,a as r}from"./defineAppConfig-CjWUsRRy.js";const n={viewBox:"0 0 24 24",width:"1.2em",height:"1.2em"};function c(l,e){return t(),a("svg",n,[...e[0]||(e[0]=[r("path",{fill:"currentColor",d:"M19 3H5c-1.11 0-2 .89-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5a2 2 0 0 0-2-2m-9 13V8l5 4"},null,-1)])])}const i=o({name:"mdi-play-box",render:c});export{i as I};

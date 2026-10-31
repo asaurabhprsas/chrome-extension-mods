@@ -1,0 +1,17 @@
+{
+   "description": {
+      "message": "L'analyse vous aide à comprendre et à contrôler votre utilisation des sites web, ce qui entraîne moins de distractions et une meilleure productivité"
+   },
+   "iosDescription": {
+      "message": "Comprendre et contrôler votre utilisation web, moins de distractions et plus de productivité"
+   },
+   "name": {
+      "message": "StayFree - Bloqueur Web, Statistiques d'Usage, Bloqueur de Shorts"
+   },
+   "shortDescription": {
+      "message": "L'analyse aide à maîtriser l'usage des sites, réduit les distractions, booste la productivité."
+   },
+   "shortName": {
+      "message": "StayFree"
+   }
+}

@@ -1,0 +1,1 @@
+import{B as e,r as a,bj as s,ax as r}from"./defineAppConfig-CjWUsRRy.js";const i="primary-metric-value",o="primary-metric-setter";function p(){const t=a(""),n=c=>{t.value=c};r(i,t),r(o,n)}function u(){return e(i,a(""))}function l(){return e(o,s)}export{l as a,u as i,p};

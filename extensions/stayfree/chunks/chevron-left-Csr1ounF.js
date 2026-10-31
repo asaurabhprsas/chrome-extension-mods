@@ -1,0 +1,1 @@
+import{q as o,o as t,g as r,a as n}from"./defineAppConfig-CjWUsRRy.js";const a={viewBox:"0 0 24 24",width:"1.2em",height:"1.2em"};function l(s,e){return t(),r("svg",a,[...e[0]||(e[0]=[n("path",{fill:"currentColor",d:"M15.41 16.58L10.83 12l4.58-4.59L14 6l-6 6l6 6z"},null,-1)])])}const i=o({name:"mdi-chevron-left",render:l});export{i as I};

@@ -1,0 +1,1 @@
+import{q as o,o as a,g as t,a as r}from"./defineAppConfig-CjWUsRRy.js";const n={viewBox:"0 0 24 24",width:"1.2em",height:"1.2em"};function i(s,e){return a(),t("svg",n,[...e[0]||(e[0]=[r("path",{fill:"currentColor",d:"M17 10.5V7a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-3.5l4 4v-11z"},null,-1)])])}const c=o({name:"mdi-video",render:i});export{c as I};

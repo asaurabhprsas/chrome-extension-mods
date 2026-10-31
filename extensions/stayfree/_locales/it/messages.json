@@ -1,0 +1,17 @@
+{
+   "description": {
+      "message": "Strumenti di analisi per aiutarti a capire e controllare l'utilizzo del tuo sito Web, riducendo le distrazioni e migliorando la produttività"
+   },
+   "iosDescription": {
+      "message": "Capire e controllare l'uso del tuo sito web, meno distrazioni e più produttività"
+   },
+   "name": {
+      "message": "StayFree - Blocco Siti, Statistiche Utilizzo Web, Blocco Shorts"
+   },
+   "shortDescription": {
+      "message": "Strumenti di analisi per comprendere e gestire il tuo sito, tagliando distrazioni e potenziando la produttività."
+   },
+   "shortName": {
+      "message": "StayFree"
+   }
+}

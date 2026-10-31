@@ -1,0 +1,17 @@
+{
+   "description": {
+      "message": "웹 사이트 사용을 이해하고 제어할 수 있는 분석으로, 산만함을 줄이고 생산성을 높입니다"
+   },
+   "iosDescription": {
+      "message": "웹 사용을 이해하고 제어하여 집중력과 생산성을 높이세요"
+   },
+   "name": {
+      "message": "StayFree - 웹사이트 차단기, 웹 사용 통계, 숏츠 차단기"
+   },
+   "shortDescription": {
+      "message": "웹 사이트 사용을 이해하고 제어할 수 있는 분석으로, 산만함을 줄이고 생산성을 높입니다"
+   },
+   "shortName": {
+      "message": "StayFree"
+   }
+}

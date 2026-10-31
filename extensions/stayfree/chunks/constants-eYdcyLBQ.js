@@ -1,0 +1,1 @@
+const s=".usage_backup",a=".sfweb",t=".sfdesk",o="50995567573-hu2hn9c4ejt9gufg7cu1k2365e1ovtbc.apps.googleusercontent.com",E=["https://www.googleapis.com/auth/gmail.readonly"],c="https://app.stayfresh.email";export{t as D,o as G,s as L,c as S,a as W,E as a};

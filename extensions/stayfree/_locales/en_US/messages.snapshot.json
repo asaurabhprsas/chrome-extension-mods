@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "StayFree - Website Blocker, Web Usage Stats, Shorts Blocker"
+  },
+  "shortName": {
+    "message": "StayFree"
+  },
+  "description": {
+    "message": "Analytics to help you understand and control your website usage, leading to less distractions and enhanced productivity"
+  },
+  "shortDescription": {
+    "message": "Analytics for website control, less distractions, and boosted productivity."
+  },
+  "iosDescription": {
+    "message": "Understand and control your website usage, leading to fewer distractions and enhanced productivity"
+  }
+}

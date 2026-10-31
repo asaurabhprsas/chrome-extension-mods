@@ -1,0 +1,1 @@
+import{bm as n,D as u,be as t}from"./defineAppConfig-CjWUsRRy.js";import{g as i}from"./useGetIgnoredAppsQuery-DiEe9pr_.js";function p(){const e=n(),o=u();return t({mutationFn:r=>e.addIgnoredApp(r),onSuccess:()=>{o.invalidateQueries({queryKey:[i]})}})}export{p as u};

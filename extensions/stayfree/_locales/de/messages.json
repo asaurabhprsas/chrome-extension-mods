@@ -1,0 +1,17 @@
+{
+   "description": {
+      "message": "Analysen, die Ihnen helfen, die Nutzung Ihrer Website zu verstehen und zu kontrollieren, was zu weniger Ablenkung und höherer Produktivität führt"
+   },
+   "iosDescription": {
+      "message": "Website-Nutzung verstehen und kontrollieren, weniger Ablenkung und mehr Produktivität"
+   },
+   "name": {
+      "message": "StayFree - Website-Blocker, Webnutzungsstatistiken, Shorts-Blocker"
+   },
+   "shortDescription": {
+      "message": "Analysen zur Webnutzung: Verstehen & kontrollieren für weniger Ablenkung & mehr Produktivität."
+   },
+   "shortName": {
+      "message": "StayFree"
+   }
+}

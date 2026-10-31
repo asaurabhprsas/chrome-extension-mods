@@ -1,0 +1,17 @@
+{
+   "description": {
+      "message": "Analiza, która pomoże Ci zrozumieć i kontrolować korzystanie z internetu, co prowadzi do mniejszych rozproszeń i zwiększonej produktywności"
+   },
+   "iosDescription": {
+      "message": "Zrozum i kontroluj korzystanie ze stron, mniej rozproszeń i większa produktywność"
+   },
+   "name": {
+      "message": "StayFree - Blokada Stron, Statystyki Użycia Sieci, Blokada Shorts"
+   },
+   "shortDescription": {
+      "message": "Analiza do kontroli stron, mniej rozproszeń i zwiększona produktywność."
+   },
+   "shortName": {
+      "message": "StayFree"
+   }
+}
