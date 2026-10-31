@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Chrome Mods Manager",
+  "version": "1.0.0",
+  "description": "Central dashboard to manage, configure, and toggle tweaks for Chrome extensions",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Chrome Mods Manager"
+  },
+  "permissions": [
+    "storage"
+  ]
+}
